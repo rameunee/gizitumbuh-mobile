@@ -1,0 +1,8 @@
+{
+  "appId": "com.gizitumbuh.kalkulator",
+  "appName": "GiziTumbuh",
+  "webDir": "frontend/dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
