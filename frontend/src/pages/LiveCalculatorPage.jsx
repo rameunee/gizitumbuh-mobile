@@ -61,14 +61,19 @@ export const LiveCalculatorPage = () => {
   return (
     <div className="min-h-screen bg-slate-50 p-4 md:p-8 font-sans">
       <div className="max-w-6xl mx-auto space-y-6">
-        <div className="bg-gradient-to-br from-sky-600 via-cyan-600 to-teal-500 text-white p-7 rounded-2xl shadow-lg border border-white/20">
+        <div className="bg-gradient-to-br from-sky-600 via-cyan-600 to-teal-500 text-white p-6 md:p-7 rounded-2xl shadow-lg border border-white/20">
           <h1 className="text-3xl md:text-4xl font-black text-center tracking-tight drop-shadow-sm">
             GiziTumbuh
           </h1>
-          <p className="text-sm md:text-base text-sky-50 text-center mt-1 font-semibold">
+          <p className="text-sm md:text-base text-sky-50 text-center mt-1 font-medium">
             Menghitung Status Gizi Balita
           </p>
-          <p className="text-xs text-sky-100/90 text-center mt-3 max-w-2xl mx-auto">
+          <div className="mt-3 flex justify-center">
+            <span className="inline-flex items-center rounded-full bg-white/15 px-3 py-1 text-[11px] md:text-xs font-medium text-sky-50 border border-white/20">
+              Standar Antropometri Anak KEMENKES-RI / WHO
+            </span>
+          </div>
+          <p className="text-[11px] text-sky-100/80 text-center mt-3 max-w-xl mx-auto leading-relaxed">
             Hitung Z-Score dan status gizi balita secara offline tanpa menyimpan data.
           </p>
         </div>
