@@ -26,5 +26,6 @@ Thumbs.db
 # Secrets
 *.keystore
 *.jks
+keystore.properties
 *.p12
 *.mobileprovision
